@@ -1,0 +1,572 @@
+/** {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+header {
+  background-color: #ffd9c9;
+  align-items: center;
+}
+
+.logoheader {
+  margin-left: 250px;
+  margin-top: 25px;
+  height: auto;
+  object-fit: contain;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #d9b67c;
+  margin: 40px 0;
+}
+
+/* Celular - Header*/
+/*@media (max-width: 480px) {
+  .logoheader {
+    margin-left: 0;
+    width: 180px;
+  }
+
+  header hr {
+    margin: 20px 0;
+  }
+}*/
+
+/* Tablet - Header*/
+/*@media (min-width: 481px) and (max-width: 768px) {
+  .logoheader {
+    margin-left: 20px;
+    width: 220px;
+  }
+}*/
+
+/* Desktop grande - Header */
+/*@media (min-width: 1200px) {
+  .logoheader {
+    margin-left: 350px;
+    width: 350px;
+  }
+}
+
+body {
+  background-color: #fff3e6;
+}
+
+h1 {*/
+  /*color: #4a2f27;*/
+ /* color: #ffd9c9;
+  text-align: center;
+  font-size: 60px;
+  background-color: #4a2f27;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px #d9b67c;
+  border-style: dashed;
+}*/
+
+/* Celular - h1 título principal*/
+/*@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+    padding: 10px 0;
+  }
+}*/
+
+/* Tablet - h1 título principal*/
+/*@media (min-width: 481px) and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+}*/
+
+/* Desktop grande - h1 título principal*/
+/*@media (min-width: 1200px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+
+
+
+
+.ban {
+  background-color: #ffd9c9;
+}
+
+.banner {
+  max-width: 1500px;
+  height: auto;
+  margin-left: 10px;
+}*/
+
+/*carrossel de imagens*/
+
+/*.carrosseldeimgs {
+  background-color: #ffd9c9;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(199, 26, 26, 0.8);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+#legend {
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+  color: #4a2f27;
+}*/
+
+/*Área do footer*/
+/*.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #4a2f27;
+    color: #fff;
+    gap: 20px;
+}
+
+.footer-section {
+    min-width: 200px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #ffd9c9; 
+}
+
+.footer-section a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-section a:hover {
+    color: #ffd9c9;
+}
+
+footer p {
+  background: #4a2f27;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 10px;
+}*/
+
+/* Ícones das redes sociais */
+/*.footer-section i {
+    margin-right: 8px;
+}
+
+.marcadagua {
+  position: absolute;
+  width: auto;
+  height: 200px;
+  margin-left: 900px;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffd9c9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  flex: 1;
+}
+
+/* HEADER*/
+
+header {
+  background-color: #ffd9c9;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoheader {
+  width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+nav.menu {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #4a2f27;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 35px;
+  cursor: pointer;
+  color: #4a2f27;
+}
+
+hr {
+  width: 100%;
+  border: none;
+  border-top: 2px solid #d9b67c;
+  margin: 20px 0;
+}
+
+
+/*TITULO PRINCIPAL*/
+
+pre {
+  color: #ffd9c9;
+  text-align: center;
+  font-size: 30px;
+  background-color: #4a2f27;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px dashed #d9b67c;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+
+/*BANNER*/
+
+.ban {
+  background-color: #ffd9c9;
+  padding: 10px 0;
+
+}
+
+.banner {
+  width: 100%;
+  max-width: 1500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner-mobile {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* CARROSSEL*/
+
+.carrosseldeimgs {
+  background-color: #ffd9c9;
+  padding-bottom: 40px;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  padding: 10px;
+}
+
+.carousel-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#legend {
+  font-size: 20px;
+  text-align: center;
+  font-family: cursive;
+  color: #4a2f27;
+  padding: 10px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(199, 26, 26, 0.8);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
+
+
+/*FOOTER*/
+
+footer {
+  background-color: #4a2f27;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+
+.footer-section {
+  min-width: 200px;
+  text-align: left;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #ffd9c9;
+}
+
+.footer-section a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-section a:hover {
+  color: #ffd9c9;
+}
+
+.marcadagua {
+  position: absolute;
+  margin: 20px auto;
+  height: 120px;
+  width: auto;
+  margin-top: -180px;
+  margin-left: 150px;
+}
+
+footer p {
+  background: #4a2f27;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+/*---MOBILE---*/
+
+@media (max-width: 480px) {
+
+  .logoheader {
+    width: 400px;
+    margin-bottom: 10px;
+  }
+
+  .menu-toggle {
+  display: flex;
+}
+
+.menu-links {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 180px;
+  background: #4a2f27;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  box-shadow: -2px 0 6px rgba(0,0,0,0.2);
+}
+
+.menu-links.menu-aberto {
+  display: flex;
+}
+
+.menu-links a {
+  color: #ffd9c9;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  h1 {
+    font-size: 18px;
+    padding: 8px 0;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .banner-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .carousel {
+    max-width: 100%;
+  }
+
+  #legend {
+    font-size: 13px;
+  }
+
+  .carousel-btn {
+    padding: 6px;
+  }
+
+  /* Footer em duas colunas */
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .footer-section {
+    width: 45%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .marcadagua {
+    width: 120px;
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
+/*---TABLET---*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  .logoheader {
+    width: 240px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .carousel {
+    max-width: 85%;
+  }
+
+  #legend {
+    font-size: 18px;
+  }
+
+  .marcadagua {
+    height: 140px;
+  }
+}
+
+
+
+
+
+/*---DESKTOP GRANDE---*/
+
+@media (min-width: 1200px) {
+
+  .logoheader {
+    width: 380px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  .carousel {
+    max-width: 900px;
+  }
+
+  #legend {
+    font-size: 22px;
+  }
+
+  .marcadagua {
+    height: 220px;
+  }
+}
